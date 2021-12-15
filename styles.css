@@ -1,0 +1,304 @@
+/* PERSONAL HOMEPAGE */
+
+
+
+/* COLOR VARIABLES
+----------------------------------------------- */
+:root {
+  --dark: #2B2B2B;
+  --light: #2B2B2B;
+  --mid: #2B2B2B;
+}
+
+
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2B2B2B; 
+  color: var(--light);
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* HEADER
+----------------------------------------------- */
+header {
+
+
+}
+.Banner{
+  background-image: url(images/Banner.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  padding: 30em;
+  margin-bottom: 0em;
+  margin-top: -10em;
+  color:black;
+}
+
+.Banner a {  
+  position: absolute; 
+  top: 0; 
+  left: 14px; 
+  font-size: 2em;
+  color:Black;
+
+} 
+
+.Banner a:hover {
+  text-decoration: underline;
+
+}
+
+.Banner2{
+  background-image: url(images/Banner2.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  padding: 30em;
+  margin-bottom: 0em;
+  margin-top: -10em;
+  color:black;
+}
+
+.Banner2 a {  
+  position: absolute; 
+  top: 0; 
+  left: 14px; 
+  font-size: 2em;
+  color:Black;
+
+} 
+
+.Banner2 a:hover {
+  text-decoration: underline;
+
+}
+
+.Work a {  
+  position: absolute; 
+  top: 0; 
+  left: 20em; 
+  font-size: 2em;
+  position: fixed;
+  color:Black;
+
+} 
+
+.Work a:hover {
+  text-decoration: underline;
+  }
+
+.About a {  
+  position: absolute; 
+  top: 0; 
+  left: 23em; 
+  font-size: 2em;
+  position: fixed;
+  color:Black;
+
+} 
+
+.About a:hover {
+  text-decoration: underline;
+  }
+
+.Contact a {  
+  position: absolute; 
+  top: 0; 
+  left: 26em; 
+  font-size: 2em;
+  position: fixed;
+  color:Black;
+
+} 
+
+.Contact a:hover {
+  text-decoration: underline;
+  }
+
+
+}
+
+/* MAIN
+----------------------------------------------- */
+main {
+}
+
+.Home_art1{
+
+  background-image: url(images/Homeart1.png);
+  background-repeat: no-repeat;
+  padding: 26em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+  .Home_art2{
+
+  background-image: url(images/Homeart2.png);
+  background-repeat: no-repeat;
+  padding: 26em;
+  margin-bottom: -18em;
+  margin-top: 0em;
+  color:black;
+  }
+
+.Graphics{
+
+  background-image: url(images/Graphics.png);
+  background-repeat: no-repeat;
+  padding: 35em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+.Photo{
+
+  background-image: url(images/Photo.png);
+  background-repeat: no-repeat;
+  padding: 26em;
+  margin-bottom: -11em;
+  margin-top: 11em;
+  color:black;
+  }
+
+  .show a {
+    position: absolute;
+    top: 43em;
+    left: 608px;
+    font-size: 2em;
+    color: white;
+  }
+
+.info{
+
+  background-image: url(images/About.png);
+  background-repeat: no-repeat;
+  margin-left: 13em;
+  padding: 35em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+  .me{
+
+  background-image: url(images/me.png);
+  background-repeat: no-repeat;
+  margin-left: 13em;
+  padding: 35em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+  .FB{
+
+  margin-left: 13em;
+  padding: 35em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+.FB a {  
+  position: absolute; 
+  top: 30em; 
+  left: 23em; 
+  color:Black;
+
+} 
+
+.FB a:hover {
+  text-decoration: underline;
+  }
+
+  .insta{
+
+  margin-left: 13em;
+  padding: 35em;
+  margin-bottom: -11em;
+  margin-top: 10em;
+  color:black;
+  }
+
+.insta a {
+    position: absolute;
+    top: 730px;
+    left: 28em;
+    color: Black;
+
+} 
+
+.insta a:hover {
+  text-decoration: underline;
+  }
+
+}
+
+
+
+
+
+/* FOOTER
+----------------------------------------------- */
+footer {
+  
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES
+----------------------------------------------- */
+@media (min-width: 800px) {
+  
+  body {
+    font-size: 24px;
+  }
+
+}
+
+
+@media (prefers-color-scheme: light) {
+
+  body {
+    background: var(--light); 
+    color: var(--dark);
+  }
+
+}
